@@ -7,3 +7,12 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+
+int Insert(int a[],int b){
+    int a[];
+    int temp=0;
+    getchar(a);
+    for(int i=0;i<)
+    
+}
