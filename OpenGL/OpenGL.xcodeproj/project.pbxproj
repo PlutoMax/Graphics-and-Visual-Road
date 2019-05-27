@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		579220922296733000988EC3 /* LinearList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 579220912296733000988EC3 /* LinearList.cpp */; };
 		57CF16F322782B7E00B76451 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57CF16F222782B7E00B76451 /* main.cpp */; };
 		57CF16FB22782B8500B76451 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF16FA22782B8500B76451 /* GLUT.framework */; };
 		57CF16FD22782B8B00B76451 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CF16FC22782B8B00B76451 /* OpenGL.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		579220912296733000988EC3 /* LinearList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearList.cpp; sourceTree = "<group>"; };
 		57CF16EF22782B7E00B76451 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CF16F222782B7E00B76451 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		57CF16FA22782B8500B76451 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				57CF16F222782B7E00B76451 /* main.cpp */,
+				579220912296733000988EC3 /* LinearList.cpp */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579220922296733000988EC3 /* LinearList.cpp in Sources */,
 				57CF16F322782B7E00B76451 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
